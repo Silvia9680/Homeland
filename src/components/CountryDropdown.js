@@ -23,6 +23,7 @@ const CountryDropdown = () => {
          leading-tight'>{country}</div>
         <div className='text[13px]'>Select your place
         </div>
+        </div>
         {
           isOpen ? (
             <RiArrowUpSLine
@@ -32,7 +33,7 @@ const CountryDropdown = () => {
               className='dropdown-icon-secondary'/>
           )
         }
-      </div>
+      
     </Menu.Button>
 
     <Menu.Items
