@@ -17,7 +17,8 @@ const Search = () => {
     <PropertyDropdown />
     <PriceRangeDropdown />
     <button 
-    onClick= {() => handleClick() } className='bg-violet-700 hover:bg-violet-800 
+    onClick= {() => handleClick() } 
+    className='bg-violet-700 hover:bg-violet-800 
     transtions w-full lg:max-w-[162px] h-16 rounded-lg
     flex justify-center items-center text-white text-lg'>
       <RiSearchLine/>

@@ -19,10 +19,11 @@ const Banner = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
       </p>
+      </div>
       <div className='hidden flex-1 lg:flex justify-end items-end'>
         <img src={Image} alt="banner" />
       </div>
-    </div>
+    
   </div>
   <Search />
   </section>

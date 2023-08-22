@@ -8,8 +8,8 @@ const Home = () => {
   <div className='min-h-[1800px]'>
     <Banner/>
     <HouseList />
-
-  </div>)
+  </div>
+  );
 };
 
 export default Home;

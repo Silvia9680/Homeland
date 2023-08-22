@@ -11,7 +11,8 @@ const CountryDropdown = () => {
   useContext( HouseContext )
 
   const [isOpen, setIsOpen ] = useState(false);
-  return <Menu as='div' className= 'dropdown relative'>
+  return (
+   <Menu as='div' className= 'dropdown relative'>
     <Menu.Button
        onClick={() =>setIsOpen(!isOpen)}
        className='dropdown-btn w-full text-left'
@@ -32,7 +33,9 @@ const CountryDropdown = () => {
             <RiArrowDownSLine
               className='dropdown-icon-secondary'/>
           )
+  
         }
+        
       
     </Menu.Button>
 
@@ -52,7 +55,8 @@ const CountryDropdown = () => {
         )
       })}
     </Menu.Items>
-  </Menu>;
+  </Menu>
+  );
 };
 
 export default CountryDropdown;
